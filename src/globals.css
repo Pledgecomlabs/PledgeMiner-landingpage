@@ -7,3 +7,11 @@
     background-color: #000;
   }
 }
+
+.cta {
+  @apply py-2 px-6 text-white text-xl rounded-lg border-[2px] border-[#fafafa3b] hover:border-transparent transition-all bg-gradient-to-b from-[#9809a9] to-[#766a77];
+}
+
+.cta-outline {
+  @apply py-2 px-6 text-white text-xl rounded-lg border-[2px] border-[#fafafa] hover:border-[#fafafad5] transition-all bg-transparent;
+}
