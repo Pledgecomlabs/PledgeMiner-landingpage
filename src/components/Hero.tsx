@@ -17,18 +17,18 @@ const Hero = () => {
               your balance.
             </p>
 
-            <div className="xl:flex items-center">
+            <div className="flex flex-col items-start sm:flex-row">
               <a
                 href="https://chromewebstore.google.com/detail/pledgecom-extension/amfpepiagonfjlalcjcnmpbbjnmnpleb?authuser=0&hl=en-GB&pli=1"
                 target="_blank"
-                className="cta block text-center sm:inline"
+                className="cta text-center"
               >
                 Download PledgeMiner
               </a>
 
               <Link
                 href="/"
-                className="cta-outline mt-7 xl:mt-0 sm:ml-5 text-center block sm:inline"
+                className="cta-outline mt-5 sm:mt-0 sm:ml-6 text-center"
               >
                 Learn More
               </Link>
