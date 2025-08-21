@@ -15,6 +15,10 @@
   }
 }
 
+section + section {
+  @apply mt-16;
+}
+
 .cta {
   @apply py-2 px-6 text-white text-xl rounded-lg border-[2px] border-[#fafafa3b] hover:border-transparent transition-all bg-gradient-to-b from-[#9809a9] to-[#766a77];
 }
@@ -39,4 +43,16 @@
   padding: 1.25rem;
   background-color: white;
   color: #333;
+}
+
+.privacy-content > li,
+.privacy-content > li > p,
+.sub-content,
+.sub-content p,
+.sub-content ul {
+  @apply mt-4;
+}
+
+.sub-content h2 {
+  font-size: 1.125rem;
 }
