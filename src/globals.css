@@ -15,3 +15,21 @@
 .cta-outline {
   @apply py-2 px-6 text-white text-xl rounded-lg border-[2px] border-[#fafafa] hover:border-[#fafafad5] transition-all bg-transparent;
 }
+
+.icon-wrapper {
+  @apply bg-transparent w-14 h-14 flex justify-center items-center rounded-full bg-gradient-to-b from-[#9809a9] to-[#766a77];
+}
+
+.faq-question::before {
+  content: "\25BC";
+  position: absolute;
+  right: 20px;
+  color: #000;
+}
+
+.faq-answer {
+  display: none;
+  padding: 1.25rem;
+  background-color: white;
+  color: #333;
+}

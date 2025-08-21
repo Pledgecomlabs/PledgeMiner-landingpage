@@ -1,3 +1,9 @@
+import Home from "../pages/Home";
+
 export default function Page() {
-  return <div>Project start</div>;
+  return (
+    <main>
+      <Home />
+    </main>
+  );
 }
