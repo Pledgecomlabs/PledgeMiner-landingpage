@@ -92,16 +92,20 @@ const Home = () => {
 
           <div className="flex flex-col mx-auto gap-5 mt-7">
             <div className="md:flex items-center justify-around">
-              <h3 className="text-white text-4xl font-bold mb-2">Step 1:</h3>
+              <h3 className="text-white text-2xl lg:text-4xl font-bold mb-2">
+                Step 1:
+              </h3>
 
-              <p className="text-white md:ml-10 mb-0 flex-1 text-xl">
+              <p className="text-white md:ml-10 mb-0 flex-1 text-lg">
                 <b>Install PledgeMiner</b> <br />
                 Quick and easy setup on your browser
               </p>
             </div>
 
             <div className="md:flex items-center justify-around mt-5">
-              <h3 className="text-white text-4xl font-bold mb-2">Step 2:</h3>
+              <h3 className="text-white text-2xl lg:text-4xl font-bold mb-2">
+                Step 2:
+              </h3>
 
               <p className="text-white md:ml-10 mb-0 flex-1 text-xl">
                 <b>Create Your Free Account</b> <br />
@@ -110,7 +114,9 @@ const Home = () => {
             </div>
 
             <div className="md:flex items-center justify-around mt-5">
-              <h3 className="text-white text-4xl font-bold mb-2">Step 3:</h3>
+              <h3 className="text-white text-2xl lg:text-4xl font-bold mb-2">
+                Step 3:
+              </h3>
 
               <p className="text-white md:ml-10 mb-0 flex-1 text-xl">
                 <b>Click "Mine" Daily</b> <br />
@@ -119,7 +125,9 @@ const Home = () => {
             </div>
 
             <div className="md:flex items-center justify-around mt-5">
-              <h3 className="text-white text-4xl font-bold mb-2">Step 4:</h3>
+              <h3 className="text-white text-2xl lg:text-4xl font-bold mb-2">
+                Step 4:
+              </h3>
 
               <p className="text-white md:ml-10 mb-0 flex-1 text-xl">
                 <b>Build your Balance</b> <br />
@@ -128,7 +136,9 @@ const Home = () => {
             </div>
 
             <div className="md:flex items-center justify-around mt-5">
-              <h3 className="text-white text-4xl font-bold mb-2">Step 5:</h3>
+              <h3 className="text-white text-2xl lg:text-4xl font-bold mb-2">
+                Step 5:
+              </h3>
 
               <p className="text-white md:ml-10 mb-0 flex-1 text-xl">
                 <b>Unlock Utility (Coming Soon)</b> <br />
