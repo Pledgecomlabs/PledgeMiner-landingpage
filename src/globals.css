@@ -4,7 +4,14 @@
 
 @layer {
   body {
-    background-color: #000;
+    background-color: #080808;
+    background-image: radial-gradient(#222, #000);
+    background-position: center;
+    background-size: cover;
+  }
+
+  html {
+    scroll-behavior: smooth;
   }
 }
 
