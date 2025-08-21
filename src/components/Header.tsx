@@ -44,7 +44,7 @@ const Header = () => {
               menu ? "" : "hidden"
             }`}
           >
-            <ul className="flex flex-col md:flex-row items-center md:space-x-8 md:mt-0 transition duration-200 shadow-xl">
+            <ul className="flex flex-col md:flex-row items-center gap-5 lg:gap-8 md:mt-0 transition duration-200 shadow-xl py-4">
               <li>
                 <Link
                   href="/"
@@ -54,7 +54,7 @@ const Header = () => {
                 </Link>
               </li>
 
-              <li className="mb-4 md:mb-0">
+              <li>
                 <Link
                   href="/blog"
                   className="text-white hover:text-gray-200 transition-all text-xl py-3 pr-4 pl-3 md:p-0"
@@ -63,17 +63,21 @@ const Header = () => {
                 </Link>
               </li>
 
-              <li className="mb-4 md:mb-0">
+              <li>
                 <Link
-                  href="#social"
+                  href="#footer-section"
                   className="text-white hover:text-gray-200 transition-all text-xl py-3 pr-4 pl-3 md:p-0"
                 >
                   Socials
                 </Link>
               </li>
 
-              <li className="md:my-0 my-10">
-                <a href="" className="cta">
+              <li className="mt-3 md:mt-0">
+                <a
+                  href="https://chromewebstore.google.com/detail/pledgecom-extension/amfpepiagonfjlalcjcnmpbbjnmnpleb?authuser=0&hl=en-GB&pli=1"
+                  target="_blank"
+                  className="cta"
+                >
                   Download PledgeMiner
                 </a>
               </li>
