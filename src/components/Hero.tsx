@@ -7,7 +7,7 @@ const Hero = () => {
       <div className="container mx-auto px-4">
         <div className="lg:flex justify-between items-center">
           <div className="hero-content">
-            <h1 className="text-white font-bold text-3xl xl:text-[55px] leading-tight capitalize">
+            <h1 className="text-white font-bold text-4xl xl:text-[55px] leading-tight capitalize">
               The simplest way to mine cryptocurrency
             </h1>
 
@@ -18,15 +18,16 @@ const Hero = () => {
             </p>
 
             <div className="xl:flex items-center">
-              <Link
+              <a
                 href="https://chromewebstore.google.com/detail/pledgecom-extension/amfpepiagonfjlalcjcnmpbbjnmnpleb?authuser=0&hl=en-GB&pli=1"
+                target="_blank"
                 className="cta block text-center sm:inline"
               >
                 Download PledgeMiner
-              </Link>
+              </a>
 
               <Link
-                href="https://chromewebstore.google.com/detail/pledgecom-extension/amfpepiagonfjlalcjcnmpbbjnmnpleb?authuser=0&hl=en-GB&pli=1"
+                href="/"
                 className="cta-outline mt-7 xl:mt-0 sm:ml-5 text-center block sm:inline"
               >
                 Learn More
