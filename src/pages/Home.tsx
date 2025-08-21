@@ -9,7 +9,7 @@ const Home = () => {
       <section>
         <div className="container mx-auto px-4">
           <div className="lg:flex justify-between items-center">
-            <div className="flex-1 w-[300px] h-[300px] lg:w-[450px] lg:h-[450px] relative">
+            <div className="hidden md:block flex-1 w-[300px] h-[300px] lg:w-[450px] lg:h-[450px] relative">
               <Image
                 src={"/community.png"}
                 alt=""
