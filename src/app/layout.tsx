@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Open_Sans } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import "../globals.css";
@@ -8,13 +9,17 @@ export const metadata: Metadata = {
   description: "",
 };
 
+const opensans = Open_Sans({
+  subsets: ["latin"],
+});
+
 export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className={opensans.className}>
       <body>
         <Header />
         {children}
