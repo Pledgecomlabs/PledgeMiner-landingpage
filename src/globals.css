@@ -5,7 +5,9 @@
 @layer {
   body {
     background-color: #080808;
-    background-image: radial-gradient(#222, #000);
+    background-image: url("/bg.jpg"), radial-gradient(#222, #000);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
   }
