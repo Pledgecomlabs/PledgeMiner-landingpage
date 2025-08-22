@@ -2,23 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer {
-  body {
-    background-color: #080808;
-    background-image: url("/bg.jpg"), radial-gradient(#222, #000);
-    background-blend-mode: darken;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-  }
+body {
+  background-color: #080808;
+  background-image: url("/bg.jpg"), radial-gradient(#222, #000);
+  background-blend-mode: darken;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 
-  html {
-    scroll-behavior: smooth;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 section + section {
-  @apply mt-16;
+  @apply mt-10;
 }
 
 .cta {
@@ -41,7 +39,6 @@ section + section {
 }
 
 .faq-answer {
-  display: none;
   padding: 1.25rem;
   background-color: white;
   color: #333;
