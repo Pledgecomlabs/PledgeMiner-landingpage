@@ -40,9 +40,9 @@ const Header = () => {
 
           <div
             id="mobile-menu"
-            className={`"w-full md:block md:w-auto mt-6 md:mt-0 w-full ${
-              menu ? "" : "hidden"
-            }`}
+            className={`absolute md:relative top-[70px] md:top-auto left-0 md:left-auto right-0 md:right-auto bg-black md:bg-transparent transition-all ${
+              menu ? "opacity-100" : "opacity-0"
+            } md:opacity-100`}
           >
             <ul className="flex flex-col md:flex-row items-center gap-5 lg:gap-8 md:mt-0 transition duration-200 shadow-xl py-4">
               <li>
@@ -72,7 +72,7 @@ const Header = () => {
                 </Link>
               </li>
 
-              <li className="mt-3 md:mt-0">
+              <li className="mt-3 md:mt-0 mb-3 md:mb-0">
                 <a
                   href="https://chromewebstore.google.com/detail/pledgecom-extension/amfpepiagonfjlalcjcnmpbbjnmnpleb?authuser=0&hl=en-GB&pli=1"
                   target="_blank"
