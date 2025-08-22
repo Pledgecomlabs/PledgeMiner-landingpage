@@ -9,7 +9,7 @@ const Home = () => {
       <section>
         <div className="container mx-auto px-4">
           <div className="lg:flex justify-between items-center">
-            <div className="hidden md:block flex-1 w-[300px] h-[300px] lg:w-[450px] lg:h-[450px] relative">
+            <div className="hidden md:block flex-1 w-[300px] min-h-[300px] lg:w-[450px] lg:h-[450px] relative">
               <Image
                 src={"/community.png"}
                 alt=""
@@ -71,7 +71,7 @@ const Home = () => {
             </div>
 
             <div className="flex-1 order-1 lg:order-2 relative">
-              <div className="w-[300px] h-[300px] lg:w-[450px] lg:h-[450px] lg:ml-auto relative">
+              <div className="w-[300px] min-h-[200px] lg:w-[400px] lg:min-h-[400px] lg:ml-auto relative">
                 <Image
                   src={"/pledging.png"}
                   alt=""
@@ -188,13 +188,12 @@ const Home = () => {
             </div>
 
             <div className="flex-1 order-1 lg:order-2 relative">
-              <div className="w-[300px] h-[300px] lg:w-[450px] lg:h-[450px] lg:ml-auto relative">
+              <div className="w-[300px] min-h-[200px] lg:w-[400px] lg:min-h-[400px] lg:ml-auto relative">
                 <Image
                   src={"/pledging.png"}
-                  width={450}
-                  height={450}
                   alt=""
-                  className="block m-auto lg:m-0"
+                  className="block m-auto object-contain lg:m-0"
+                  fill
                 />
               </div>
             </div>
