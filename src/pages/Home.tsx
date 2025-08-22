@@ -6,7 +6,7 @@ const Home = () => {
     <>
       <Hero />
 
-      <section className="mt-14">
+      <section className="md:-mt-10">
         <div className="container mx-auto px-4">
           <div className="lg:flex justify-between items-center">
             <div className="hidden md:block relative flex-1">
