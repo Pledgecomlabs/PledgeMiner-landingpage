@@ -39,6 +39,7 @@ section + section {
 }
 
 .faq-answer {
+  display: none;
   padding: 1.25rem;
   background-color: white;
   color: #333;
