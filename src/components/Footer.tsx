@@ -38,13 +38,17 @@ const Footer = () => {
           id="social-links"
           className="socials flex justify-center mt-5 gap-4"
         >
-          <Link href="https://x.com/pledgecomlabs?s=21">
+          <a
+            href="https://x.com/pledgeminer?s=21"
+            target="_blank"
+            rel="noopener"
+          >
             <Image src="/x.png" width={50} height={50} alt="" />
-          </Link>
+          </a>
 
-          <Link href="https://t.me/pledgecom">
+          <a href="https://t.me/pledgeminer" target="_blank" rel="noopener">
             <Image src="/telegram.png" width={50} height={50} alt="" />
-          </Link>
+          </a>
         </div>
       </div>
     </footer>
