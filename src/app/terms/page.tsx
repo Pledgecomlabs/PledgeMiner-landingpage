@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Page() {
   return (
     <section className="p-4 mt-28">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto md:px-4">
         <div className="border border-black p-8 md:p-12 bg-[#ffffffe0]">
           <h1 className="text-4xl text-center uppercase font-bold mb-8">
             Terms of Service
